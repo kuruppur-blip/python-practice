@@ -8,12 +8,13 @@ firstquestion = input("What is the capital of New Zealand?")
 print("The answer is: " + firstquestion)
 
 print("Second Question;")
-secondquestion = input("What is the national bird of New Zealand?")
-#print("The answer is Kiwi bird. That was easy, moving on...")
-print("The answer is: + second question")
+secondquestion = input("What is the national symbol of New Zealand?")
+#print("The answer is Kiwi. That was easy, moving on...")
+print("The answer is:" + secondquestion)
 
 print("Third Question")
-input("")
-
+thirdquestion = input("What is the name of New Zealand's indigenous people?")
+#print("The answer is Maori. Next question.")
+print("The anwer is:" + thirdquestion)
 
 
