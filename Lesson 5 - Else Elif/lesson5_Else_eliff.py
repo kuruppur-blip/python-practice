@@ -1,5 +1,5 @@
 print("Hello")
-print("This is a quiz. The quiz will be based on New Zealand to test your knowledge <3")
+print("This is a quiz. The quiz will be based on New Zealand to test your knowledge (●'◡'●)")
 
 
 print("First Question;")
