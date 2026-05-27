@@ -1,13 +1,22 @@
-#This is a quiz to the a person's Knowledge. 
-
 print("Hello")
 print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
 
 
 print("First Question;")
-firstquestion = input("What is the capital of New Zealand?")
+firstquestion = input("What is the capital of New Zealand?").strip()
+if firstquestion == "answer":
 # print("The answer is wellington. That was easy, wasn't it?")
-print("The answer is:" + firstquestion)
+    print("Well done.")
+    print("The answer is: " + firstquestion)
+elif firstquestion == "wellington":
+    print("Well done!")
+    print("The answer is: " + firstquestion)
+elif firstquestion == "wellington":
+    print("Well done!")
+    print("The answer is: " + firstquestion)
+else:
+    print("Uh oh! That's not right.")
+    print("The answer is: " + firstquestion)
 
 print("Second Question;")
 secondquestion = input("What is the national symbol of New Zealand?")
@@ -57,6 +66,8 @@ print("The answer is:" + tenthquestion)
 
 
 print("WELL DONE! (❁´◡`❁)")
+print("Thank you for playing")
+print("Bye bye. ╰(*°▽°*)╯")
 
 
 
