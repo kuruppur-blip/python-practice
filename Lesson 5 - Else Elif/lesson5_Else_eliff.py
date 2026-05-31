@@ -19,9 +19,15 @@ else:
     print("The answer is: " + firstquestion)
 
 print("Second Question;")
-secondquestion = input("What is the national symbol of New Zealand?")
-#print("The answer is Kiwi. That was easy, moving on...")
-print("The answer is:" + secondquestion)
+secondquestion = input("What is the national symbol of New Zealand?").strip()
+if secondquestion == "answer":
+#print("The answer is Kiwi. That was easy, moving on...") 
+    print("Well done.")
+    print("The answer is:" + secondquestion)
+elif secondquestion == "Kiwi"
+    print("Well done")
+    print("")
+
 
 print("Third Question;")
 thirdquestion = input("What is the name of New Zealand's indigenous people?")
