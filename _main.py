@@ -27,11 +27,29 @@
 # print(name, "is", age)
 
 
-print('hello' .upper())
-print('HELLO' .lower())
+# print('hello' .upper())
+# print('HELLO' .lower())
 
-if 'HELLO' == 'hello':
-    print('The same!')
-if 'HELLO'.lower() == 'hello':
-    print('The same!')
+# if 'HELLO' == 'hello':
+#     print('The same!')
+# if 'HELLO'.lower() == 'hello':
+#     print('The same!')
 
+
+
+# guess = input("What's the password")
+# print('Checking password is a match...')
+# while guess != 'secret':
+#     guess = input('Try again')
+#     print('Checking password is a match...')
+# input('Welcome')
+
+
+
+
+print(random.random())
+import random 
+print(random())
+import random 
+print(random.random())
+print(random.randint(0,10))
