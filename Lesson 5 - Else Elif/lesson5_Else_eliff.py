@@ -4,7 +4,7 @@ print("This is a quiz. The quiz will be based on New Zealand to test your knowle
 
 print("First Question;")
 firstquestion = input("What is the capital of New Zealand?").strip()
-if firstquestion == "answer":
+if firstquestion == "wellington":
 # print("The answer is wellington. That was easy, wasn't it?")
     print("Well done.")
     print("The answer is: " + firstquestion)
