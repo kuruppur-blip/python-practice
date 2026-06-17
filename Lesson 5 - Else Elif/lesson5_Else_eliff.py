@@ -108,7 +108,7 @@ else:
 
 print("Ninth Question;")
 ninthquestion = input("Which New Zealand bird is the world's only alpine parrot?")
-if ninthquestion == "answer":
+if ninthquestion == "kea":
 #print("The answer is kea. Next question.")
     print("Well done.")
     print("The answer is: " + ninthquestion)
@@ -121,11 +121,11 @@ else:
 
 print("Tenth Question;")
 tenthquestion = input("Who was the first person to reach the summit of MOunt EVerest, and is one of New Zealand's most famous figures?")
-if tenthquestion == "answer":
-#print("The answer is Edmund Hillary.")
+if tenthquestion == "edmund hillary":
+#print("The answer is edmund hillary.")
     print("Well done.")
     print("The answer is: " + tenthquestion)
-elif tenthquestion == "Edmund Hillary":
+elif tenthquestion == "edmund hillary":
     print("Well done.")
     print("The answer is: " + tenthquestion)
 else:
