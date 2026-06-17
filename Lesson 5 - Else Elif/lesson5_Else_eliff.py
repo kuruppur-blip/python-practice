@@ -17,7 +17,7 @@ else:
 
 print("Second Question;")
 secondquestion = input("What is the national symbol of New Zealand?").strip()
-if secondquestion == "answer":
+if secondquestion == "kiwi":
 #print("The answer is Kiwi. That was easy, moving on...") 
     print("Well done.")
     print("The answer is: " + secondquestion)
@@ -30,11 +30,11 @@ else:
 
 print("Third Question;")
 thirdquestion = input("What is the name of New Zealand's indigenous people?").strip()
-if thirdquestion == "answer":
-#print("The answer is Maori. Next question.")
+if thirdquestion == "maori":
+#print("The answer is maori. Next question.")
     print("Well done.")
     print("The answer is: " + thirdquestion)
-elif thirdquestion == "Maori": 
+elif thirdquestion == "maori": 
     print("Well done.")
     print("The answer is: " + thirdquestion)
 else:
@@ -43,11 +43,11 @@ else:
 
 print("Fourth Question;")
 fourthquestion = input("What are the two main islands of New Zealand called?").strip()
-if fourthquestion == "answer":
-#print("The answer is North and South Islands. Next question.")
+if fourthquestion == "north and south islands":
+#print("The answer is north and south islands. Next question.")
     print("Well done.")
     print("The answer is: " + fourthquestion)
-elif fourthquestion == "North and South Islands":
+elif fourthquestion == "north and south islands":
     print("Well done.")
     print("The answer is: " + fourthquestion)
 else:
@@ -56,11 +56,11 @@ else:
 
 print("Fifth question;")
 fifthquestion = input("Which famous movie trillogy was filmed extensively in New Zealand?").strip()
-if fifthquestion == "answer": 
-#print("The answer is The lord of the rings. Next question.")
+if fifthquestion == "the lord of the rings": 
+#print("The answer is the lord of the rings. Next question.")
     print("Well done.")
     print("The answer is: " + fifthquestion)
-elif fifthquestion ==  "The lord of the rings": 
+elif fifthquestion ==  "the lord of the rings": 
     print("Well done.")
     print("The answer is: " + fifthquestion)
 else:
@@ -69,11 +69,11 @@ else:
 
 print("Sixth question;")
 sixthquestion = input("What are the Maori name for New Zealand?").strip()
-if sixthquestion == "answer":
-#print("The answer is Aotearoa. Next question.")
+if sixthquestion == "aotearoa":
+#print("The answer is aotearoa. Next question.")
     print("Well done.")
     print("The answer is: " + sixthquestion)
-elif sixthquestion == "Aotearoa":
+elif sixthquestion == "aotearoa":
     print("Well done.")
     print("The answer is: " + sixthquestion)
 else:
@@ -82,11 +82,11 @@ else:
 
 print("Seventh Question;")
 seventhquestion = input("Which city is known as the CITY OF SAILS?")
-if seventhquestion == "answer":
-#print("The answer is Auckland. Next question.")
+if seventhquestion == "auckland":
+#print("The answer is auckland. Next question.")
     print("Well done.")
     print("The answer is: " + seventhquestion)
-elif seventhquestion == "Auckland":
+elif seventhquestion == "auckland":
     print("Well done.")
     print("The answer is: " + seventhquestion)
 else: 
@@ -95,11 +95,11 @@ else:
 
 print("Eighth Question;")
 eighthquestion = input("What major tectonic feature runs through New Zealnd?")
-if eighthquestion == "answer":
-#print("The answer is The Alpine Fault.")
+if eighthquestion == "the alpine fault":
+#print("The answer is the alpine Fault.")
     print("Well done.")
     print("The answer is: " + eighthquestion)
-elif eighthquestion == "Alpine Fault":
+elif eighthquestion == "the alpine Fault":
     print("Well done.")
     print("The answer is: " + eighthquestion)
 else:

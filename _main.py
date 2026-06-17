@@ -54,10 +54,51 @@
 # print(random.random())
 # print(random.randint(0,10))
 
-user_input = 'idk'
-try: 
-    num = int(user_input)
-    print(f'You picked {num}')
-except: 
-    print(f'{user_input} is not a number!')
+
+
+
+# user_input = 'idk'
+# try: 
+#     num = int(user_input)
+#     print(f'You picked {num}')
+# except: 
+#     print(f'{user_input} is not a number!')
     
+
+
+
+# shopping_list = ['apples','plums','pizza']
+# print('aplles' in shopping_list)
+# print('a' in 'definitely')
+# user_input = input()
+# if user_input.lower() in['a','b','c','d']:
+#     print('Checking answer...')
+# else:
+#     print("That's not a valid answer!")
+
+
+# print(len('apples'))
+
+# shopping_list = ['apples','plums','pizza']
+# print(len(shopping_list))
+
+# shopping_list = ['apples','plums','pizza']
+# print(len(shopping_list[1]))
+
+# if len(input()) == 0:
+#     print("You didn't type anything")
+
+
+
+
+
+for food in ['apples','carrots','muesli']:
+    print(food)
+
+for i in range(10):
+    print('Hello')
+
+foods = ['apples','carrots','muesli']
+for i in range(len(foods)):
+    print(f'{i+1}.{foods[i]}')
+
