@@ -6,11 +6,12 @@ print("This is a quiz. The quiz will be based on New Zealand to test your knowle
 
 
 print("First Question;")
-firstquestion = input("What is the capital of New Zealand?").upper()
+while "firstquestion" != "WELLINGTON": 
+    firstquestion = input("What is the capital of New Zealand?").upper()
 if firstquestion == "WELLINGTON":
 # print("The answer is WELLINGTON.")
     score += 1 
-    print("the score." + str(score))  
+    print("The score." + str(score))  
     print("Well done.")
     print("The answer is: " + firstquestion)
 elif firstquestion == "WELLINGTON":
@@ -20,13 +21,15 @@ else:
     print("Uh oh! That's not right.")
     print("The answer is: " + firstquestion)
     score -= 1  
-    print("the score." + str(score))
+    print("The score." + str(score))
 
 
 # print("Second Question;")
 # secondquestion = input("What is the national symbol of New Zealand?").upper()
 # if secondquestion == "KIWI":
 # #print("The answer is KIWI.") 
+#     score += 1 
+#     print("The score." + str(score))
 #     print("Well done.")
 #     print("The answer is: " + secondquestion)
 # elif secondquestion == "KIWI":
@@ -35,6 +38,9 @@ else:
 # else:
 #     print("Uh oh! That's not right.")
 #     print("The answer is: " + secondquestion)
+#     score -= 1 
+#     print("The score." + str(score))
+
 
 # print("Third Question;")
 # thirdquestion = input("What is the name of New Zealand's indigenous people?").upper()
