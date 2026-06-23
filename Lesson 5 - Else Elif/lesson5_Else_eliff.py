@@ -1,9 +1,9 @@
-print("Hello")
+print("HELLO.👋")
 print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
 
 
 print("First Question;")
-firstquestion = input("What is the capital of New Zealand?").strip()
+firstquestion = input("What is the capital of New Zealand?")
 if firstquestion == "wellington":
 # print("The answer is wellington. That was easy, wasn't it?")
     print("Well done.")
@@ -16,7 +16,7 @@ else:
     print("The answer is: " + firstquestion)
 
 print("Second Question;")
-secondquestion = input("What is the national symbol of New Zealand?").strip()
+secondquestion = input("What is the national symbol of New Zealand?")
 if secondquestion == "kiwi":
 #print("The answer is Kiwi. That was easy, moving on...") 
     print("Well done.")
@@ -29,7 +29,7 @@ else:
     print("The answer is: " + secondquestion)
 
 print("Third Question;")
-thirdquestion = input("What is the name of New Zealand's indigenous people?").strip()
+thirdquestion = input("What is the name of New Zealand's indigenous people?")
 if thirdquestion == "maori":
 #print("The answer is maori. Next question.")
     print("Well done.")
@@ -42,7 +42,7 @@ else:
     print("The answer is: " + thirdquestion)
 
 print("Fourth Question;")
-fourthquestion = input("What are the two main islands of New Zealand called?").strip()
+fourthquestion = input("What are the two main islands of New Zealand called?")
 if fourthquestion == "north and south islands":
 #print("The answer is north and south islands. Next question.")
     print("Well done.")
@@ -55,7 +55,8 @@ else:
     print("The answer is: " + fourthquestion)
 
 print("Fifth question;")
-fifthquestion = input("Which famous movie trillogy was filmed extensively in New Zealand?").strip()
+fifthquestion = input("Which famous movie trillogy was filmed extensively in New Zealand?")
+
 if fifthquestion == "the lord of the rings": 
 #print("The answer is the lord of the rings. Next question.")
     print("Well done.")
@@ -68,7 +69,7 @@ else:
     print("The answer is: " + fifthquestion)
 
 print("Sixth question;")
-sixthquestion = input("What are the Maori name for New Zealand?").strip()
+sixthquestion = input("What are the Maori name for New Zealand?")
 if sixthquestion == "aotearoa":
 #print("The answer is aotearoa. Next question.")
     print("Well done.")

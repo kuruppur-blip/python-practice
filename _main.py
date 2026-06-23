@@ -92,13 +92,45 @@
 
 
 
-for food in ['apples','carrots','muesli']:
-    print(food)
+# for food in ['apples','carrots','muesli']:
+#     print(food)
 
-for i in range(10):
-    print('Hello')
+# for i in range(10):
+#     print('Hello')
 
-foods = ['apples','carrots','muesli']
-for i in range(len(foods)):
-    print(f'{i+1}.{foods[i]}')
+# foods = ['apples','carrots','muesli']
+# for i in range(len(foods)):
+#     print(f'{i+1}.{foods[i]}')
+
+
+
+
+
+
+def calculate_area(x,y): 
+    print (f"Area : {x,y}")
+
+calculate_area()
+
+def repeat_message(message,times):
+    for i in range(times): 
+        print (message)
+
+
+repeat_message(5, "Hello")
+
+
+
+
+def get_number(): 
+    while True: 
+        num = input("Give me a number.")
+        try: 
+            num = int(num)
+
+        except: 
+            print("That's not a number")
+
+
+num = get_number() 
 
