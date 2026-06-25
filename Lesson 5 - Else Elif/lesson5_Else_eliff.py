@@ -1,8 +1,10 @@
 playing = True 
 score = 0 
 
-print("HELLO.👋")
-print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
+def main():
+
+    print("HELLO.👋")
+    print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
 
 # First Question:
 print("First Question;")
@@ -248,3 +250,11 @@ while "tenthquestion" != "EDMUND HILLARY":
 print("WELL DONE! 👍")
 print("Thank you for playing")
 print("Bye bye. ╰(*°▽°*)╯")
+
+
+# This runs the quiz when the file is executed
+if"__main__": 
+    main()
+
+
+    
