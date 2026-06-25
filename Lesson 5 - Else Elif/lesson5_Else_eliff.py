@@ -103,7 +103,7 @@ while "fourthquestion" != "NORTH AND SOUTH ISLANDS":
 #Fifth question: 
 print("Fifth question;")
 while "fifthquestion" != "THE LORD OF THE RINGS":    
-    fifthquestion = input("Which movie was filmed in New Zealand?").upper()
+    fifthquestion = input("Which famouse movie that was filmed in New Zealand?").upper()
     if fifthquestion == "THE LORD OF THE RINGS": 
     # If they get it right 
         score += 1 
@@ -138,7 +138,7 @@ while "sixthquestion" != "AOTEAROA":
     elif sixthquestion == "AOTEAROA.":
     # If they get it right 
         print("Well done.")
-        print("The answer is: " + sixthquestion)
+        print("That was easy. Next question")
         break 
     else:
     # If they get it wrong 
@@ -153,57 +153,98 @@ print("Seventh Question;")
 while "seventhquestion" != "AUCKLAND":
     seventhquestion = input("Which city is known as the CITY OF SAILS?").upper()
     if seventhquestion == "AUCKLAND":
-    #print("The answer is AUCKLAND.")
+    # If they get it right 
+        score += 1 
+        print("The score." + str(score))
         print("Well done.")
-        print("The answer is: " + seventhquestion)
+        print("That was easy. next question...")
+        break 
     elif seventhquestion == "AUCKLAND.":
+    # If they get it right 
         print("Well done.")
-        print("The answer is: " + seventhquestion)
+        print("That was easy. Next question...")
+        break 
     else: 
+    # If they get it wrong 
         print("Uh oh! That's not right.")
-        print("The answer is: " + seventhquestion)
+        print("Try again...")
+        score -= 1 
+        print("The score." + str(score))
+        continue
 
-# print("Eighth Question;")
-# eighthquestion = input("What major tectonic feature runs through New Zealnd?").upper()
-# if eighthquestion == "THE ALPINE FAULT":
-# #print("The answer is THE ALPINEFAULT.")
-#     print("Well done.")
-#     print("The answer is: " + eighthquestion)
-# elif eighthquestion == "THE ALPINE FAULT.":
-#     print("Well done.")
-#     print("The answer is: " + eighthquestion)
-# else:
-#     print("Uh oh! That's not right.")
-#     print("The answer is: " + eighthquestion)
+#Eigth Question:
+print("Eighth Question;")
+while "eigthquestion" != "THE ALPINE FAULT":
+    eighthquestion = input("What major tectonic feature runs through New Zealnd?").upper()
+    if eighthquestion == "THE ALPINE FAULT":
+    # If theu get it right 
+        score += 1 
+        print("The score." + str(score))
+        print("Well done.")
+        print("That was easy. Next question...")
+        break
+    elif eighthquestion == "THE ALPINE FAULT.":
+    # If they get it right 
+        print("Well done.")
+        print("That was easy. Next question...")
+        break 
+    else:
+    # If they get it wrong 
+        print("Uh oh! That's not right.")
+        print("Try again...") 
+        score -= 1 
+        print("The score." + str(score))
+        continue 
 
-# print("Ninth Question;")
-# ninthquestion = input("Which New Zealand bird is the world's only alpine parrot?").upper()
-# if ninthquestion == "KEA":
-# #print("The answer is KEA")
-#     print("Well done.")
-#     print("The answer is: " + ninthquestion)
-# elif ninthquestion == "KEA.":
-#     print("Well done.")
-#     print("The answer is: " + ninthquestion)
-# else:
-#     print("Uh oh! That's not right.")
-#     print("The answer is: " + ninthquestion)
+#Ninth Question:
+print("Ninth Question;")
+while "ninthquestion" != "KEA":
+    ninthquestion = input("Which New Zealand bird is the world's only alpine parrot?").upper()
+    if ninthquestion == "KEA":
+    # If they get it right 
+        score += 1 
+        print("The score." + str(score))
+        print("Well done.")
+        print("That was easy. Next question....")
+        break 
+    elif ninthquestion == "KEA.":
+    # If they get it right 
+        print("Well done.")
+        print("That was easy. Next question...")
+        break 
+    else:
+    # If they get it wrong 
+        print("Uh oh! That's not right.")   
+        print("Try again...")
+        score -= 1 
+        print("The score." + str(score))
+        continue 
 
-# print("Tenth Question;")
-# tenthquestion = input("Who was the first person to reach the summit of MOunt EVerest, and is one of New Zealand's most famous figures?").upper()
-# if tenthquestion == "EDMUND HILLARY":
-# #print("The answer is EDMUND HILLARY.")
-#     print("Well done.")
-#     print("The answer is: " + tenthquestion)
-# elif tenthquestion == "EDMUND HILLARY.":
-#     print("Well done.")
-#     print("The answer is: " + tenthquestion)
-# else:
-#     print("Uh oh! That's not right.")
-#     print("The answer is: " + tenthquestion)
+#Tenth Question: 
+print("Tenth Question;")
+while "tenthquestion" != "EDMUND HILLARY":
+    tenthquestion = input("Who was the first person to reach the summit of MOunt EVerest, and is one of New Zealand's most famous figures?").upper()
+    if tenthquestion == "EDMUND HILLARY":
+    # If they get it right 
+        score += 1 
+        print("The score." + str(score))
+        print("Well done.")
+        print("That was easy...")
+        break 
+    elif tenthquestion == "EDMUND HILLARY.":
+    # If they get it right 
+        print("Well done.")
+        print("That was easy...")
+        break 
+    else:
+    # If they get it wrong
+        print("Uh oh! That's not right.")
+        print("Try again...")
+        score -= 1 
+        print("The score." + str(score))
+        continue 
 
 
 print("WELL DONE! 👍")
 print("Thank you for playing")
 print("Bye bye. ╰(*°▽°*)╯")
-
