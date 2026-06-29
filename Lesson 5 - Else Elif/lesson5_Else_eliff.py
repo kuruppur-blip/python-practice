@@ -3,6 +3,7 @@ score = 0
 
 def main():
 
+# Introduction: 
     print("HELLO.👋")
     print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
 
@@ -256,5 +257,4 @@ print("Bye bye. ╰(*°▽°*)╯")
 if"__main__": 
     main()
 
-
-    
+ 
