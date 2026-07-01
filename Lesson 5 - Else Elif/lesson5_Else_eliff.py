@@ -1,14 +1,15 @@
 playing = True 
 score = 0 
 
-def main():
 
 # Introduction: 
-    print("HELLO.👋")
-    print("This is a quiz. The quiz will be based on New Zealand to test your knowledge. (●'◡'●)")
+print("HELLO.👋")
+print("This is a quiz, that will be based on New Zealand to test your knowledge. (●'◡'●)")
+
+def main():
 
 # First Question:
-print("First Question;")
+    print("First Question;")
 while "firstquestion" != "WELLINGTON": 
     firstquestion = input("What is the capital of New Zealand?").upper()
     if firstquestion == "WELLINGTON":
